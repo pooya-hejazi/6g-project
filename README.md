@@ -16,7 +16,7 @@ We propose a joint deep learning framework that integrates:
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/yourusername/robust-6g-clustering.git](https://github.com/yourusername/robust-6g-clustering.git)
+    git clone [https://github.com/pooya-hejazi/6g-project.git](https://github.com/pooya-hejazi/6g-project.git)
     cd robust-6g-clustering
     ```
 
