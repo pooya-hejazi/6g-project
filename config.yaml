@@ -1,0 +1,28 @@
+seed: 42
+
+system:
+  n_aps: 4
+  n_ues: 8
+  n_ant: 16
+  n_subcarriers: 2
+
+pilots:
+  pilot_fraction: 0.25
+  snr_train_db: 15.0
+
+snr_sweep:
+  snr_db: [0, 5, 10, 15, 20, 25]
+
+optimization:
+  lambda_risk: 2.0
+  gamma_th: 0.0001
+  max_users_per_subcarrier: 4
+  time_limit_s: 3.0
+
+training:
+  estimator_epochs: 30
+  mlp_epochs: 20
+  batch_size: 32
+
+outputs:
+  root: "outputs"
